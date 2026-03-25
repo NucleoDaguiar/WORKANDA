@@ -1,46 +1,88 @@
 <!DOCTYPE html>
-          </div>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-          <form class="contact-form reveal-right" id="contactForm">
-            <div class="field-group">
-              <label for="nome">Nome</label>
-              <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
-            </div>
+<title>Healthtech | Tecnologia para médicos</title>
+<meta name="description" content="Plataforma premium para médicos brasileiros">
 
-            <div class="field-group">
-              <label for="email">E-mail</label>
-              <input type="email" id="email" name="email" placeholder="voce@exemplo.com" required />
-            </div>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 
-            <div class="field-group">
-              <label for="mensagem">Mensagem</label>
-              <textarea id="mensagem" name="mensagem" rows="5" placeholder="Conte brevemente o que você procura"></textarea>
-            </div>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
 
-            <button type="submit" class="btn btn-primary full">Enviar</button>
-            <p class="form-note">Conecte este formulário à sua ferramenta preferida.</p>
-            <p class="form-feedback" id="contactFeedback"></p>
-          </form>
-        </div>
-      </section>
-    </main>
+<body>
 
-    <footer class="footer">
-      <div class="container footer-inner">
-        <div>
-          <strong>Healthtech</strong>
-          <p>Tecnologia premium para médicos brasileiros.</p>
-        </div>
-        <div class="footer-links">
-          <a href="#topo">Início</a>
-          <a href="waitlist.html">Waitlist</a>
-        </div>
-      </div>
-    </footer>
+<header class="header">
+  <div class="container nav">
+    <h2>Healthtech</h2>
+    <a href="waitlist.html" class="btn">Entrar na Waitlist</a>
   </div>
+</header>
 
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
-  <script src="assets/js/main.js"></script>
+<section class="hero container">
+  <h1>Uma nova forma de tecnologia para médicos</h1>
+  <p>Mais eficiência, mais profissionalismo e uma experiência premium.</p>
+  <a href="waitlist.html" class="btn primary">Quero acesso antecipado</a>
+</section>
+
+<section class="section container">
+  <h2>Por que escolher nossa plataforma?</h2>
+  <div class="grid">
+    <div class="card">Interface moderna</div>
+    <div class="card">Alta performance</div>
+    <div class="card">Pensado para médicos</div>
+  </div>
+</section>
+
+<section class="section container">
+  <h2>Funcionalidades</h2>
+  <div class="grid">
+    <div class="card">Gestão simplificada</div>
+    <div class="card">Automação inteligente</div>
+    <div class="card">Experiência premium</div>
+  </div>
+</section>
+
+<section class="section container">
+  <h2>Preços</h2>
+  <div class="grid">
+    <div class="card">Plano Básico</div>
+    <div class="card destaque">Plano Premium</div>
+  </div>
+</section>
+
+<section class="section container">
+  <h2>FAQ</h2>
+  <details>
+    <summary>Como funciona?</summary>
+    <p>Explicação aqui.</p>
+  </details>
+  <details>
+    <summary>Quando lança?</summary>
+    <p>Em breve.</p>
+  </details>
+</section>
+
+<section class="section container form-box">
+  <h2>Fale conosco</h2>
+
+  <form id="contactForm">
+    <input type="text" placeholder="Seu nome" required>
+    <input type="email" placeholder="voce@exemplo.com" required>
+    <textarea placeholder="Mensagem"></textarea>
+    <button type="submit" class="btn primary">Enviar</button>
+  </form>
+
+  <p id="feedback"></p>
+</section>
+
+<footer class="footer">
+  <p>© Healthtech</p>
+</footer>
+
+<script src="assets/js/main.js"></script>
 </body>
 </html>
