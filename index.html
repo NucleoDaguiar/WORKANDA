@@ -1,72 +1,400 @@
 <!DOCTYPE html>
-        <div class="container section-intro reveal-up">
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Healthtech | Plataforma premium para médicos</title>
+  <meta name="description" content="Uma plataforma premium para médicos brasileiros, com experiência digital sofisticada, automação inteligente e foco em performance clínica." />
+  <meta property="og:title" content="Healthtech | Plataforma premium para médicos" />
+  <meta property="og:description" content="Tecnologia de alto padrão para uma rotina médica mais eficiente e elegante." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/img/hero-device.svg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a href="#top" class="brand" aria-label="Voltar ao topo">
+        <img src="assets/img/logo.svg" alt="Logo da Healthtech" />
+        <span>Healthtech</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="siteNav">
+        <a href="#solucao">Solução</a>
+        <a href="#funcionalidades">Funcionalidades</a>
+        <a href="#beneficios">Benefícios</a>
+        <a href="#precos">Preços</a>
+        <a href="#faq">FAQ</a>
+        <a href="waitlist.html" class="btn btn-secondary nav-btn">Waitlist</a>
+        <a href="#contato" class="btn btn-primary nav-btn">Solicitar demo</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal-up">
+          <span class="eyebrow">Tecnologia premium para médicos brasileiros</span>
+          <h1>Uma experiência digital à altura da medicina que você construiu.</h1>
+          <p class="hero-text">
+            Organize fluxos, eleve a percepção de valor da sua marca e apresente sua inovação com a sofisticação que um público médico exige.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#contato" class="btn btn-primary">Agendar demonstração</a>
+            <a href="waitlist.html" class="btn btn-ghost">Entrar na waitlist</a>
+          </div>
+
+          <ul class="hero-points">
+            <li>Design premium</li>
+            <li>Alta performance</li>
+            <li>Experiência responsiva impecável</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual reveal-up">
+          <div class="hero-orb hero-orb-a"></div>
+          <div class="hero-orb hero-orb-b"></div>
+
+          <div class="device-shell floating-card">
+            <img src="assets/img/hero-device.svg" alt="Mockup da plataforma Healthtech" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-bar">
+      <div class="container trust-bar-inner">
+        <span>UX refinada</span>
+        <span class="dot"></span>
+        <span>Performance e clareza</span>
+        <span class="dot"></span>
+        <span>Comunicação premium</span>
+      </div>
+    </section>
+
+    <section class="section" id="solucao">
+      <div class="container">
+        <div class="section-head reveal-up">
+          <span class="eyebrow">Proposta de valor</span>
+          <h2>Tecnologia que reduz fricção operacional sem sacrificar elegância.</h2>
+          <p>
+            Em um mercado competitivo, não basta funcionar. É preciso comunicar confiança, clareza e sofisticação desde o primeiro contato.
+          </p>
+        </div>
+
+        <div class="grid-3 cards-space">
+          <article class="glass-card reveal-up">
+            <h3>Mais clareza</h3>
+            <p>Fluxos visuais organizados para reduzir ruído e facilitar decisões rápidas.</p>
+          </article>
+          <article class="glass-card reveal-up">
+            <h3>Mais presença</h3>
+            <p>Uma experiência digital que reforça a percepção de qualidade do seu produto.</p>
+          </article>
+          <article class="glass-card reveal-up">
+            <h3>Mais eficiência</h3>
+            <p>Interações pensadas para poupar tempo e elevar a confiança em cada etapa.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container split-grid">
+        <div class="sticky-copy reveal-left">
+          <span class="eyebrow">Problema e solução</span>
+          <h2>A maioria das ferramentas resolve tarefas. Poucas constroem percepção de excelência.</h2>
+          <p>
+            Médicos exigentes não avaliam apenas funcionalidade. Eles também julgam clareza, refinamento, segurança e credibilidade visual.
+          </p>
+        </div>
+
+        <div class="stack-cards">
+          <article class="stack-card reveal-right">
+            <h3>Ferramentas genéricas</h3>
+            <p>Interfaces comuns tornam o produto esquecível e enfraquecem o posicionamento da marca.</p>
+          </article>
+          <article class="stack-card reveal-right">
+            <h3>Experiência fragmentada</h3>
+            <p>Processos desconectados geram desgaste, ruído e menor adesão ao uso recorrente.</p>
+          </article>
+          <article class="stack-card reveal-right">
+            <h3>Solução premium</h3>
+            <p>Unimos clareza, performance e design sofisticado para entregar uma experiência memorável.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="funcionalidades">
+      <div class="container">
+        <div class="section-head reveal-up">
+          <span class="eyebrow">Funcionalidades</span>
+          <h2>Recursos construídos para produtividade, confiança e percepção de valor.</h2>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card reveal-up">
+            <div class="feature-icon">01</div>
+            <h3>Painel inteligente</h3>
+            <p>Visualização clara de dados estratégicos em uma interface objetiva e sofisticada.</p>
+          </article>
+
+          <article class="feature-card reveal-up">
+            <div class="feature-icon">02</div>
+            <h3>Fluxos otimizados</h3>
+            <p>Jornadas reduzidas para manter velocidade sem comprometer precisão.</p>
+          </article>
+
+          <article class="feature-card reveal-up">
+            <div class="feature-icon">03</div>
+            <h3>Mobile refinado</h3>
+            <p>Experiência elegante em todos os dispositivos, com adaptação fluida.</p>
+          </article>
+
+          <article class="feature-card reveal-up">
+            <div class="feature-icon">04</div>
+            <h3>Arquitetura escalável</h3>
+            <p>Base preparada para novas integrações, crescimento de produto e evolução visual.</p>
+          </article>
+
+          <article class="feature-card reveal-up">
+            <div class="feature-icon">05</div>
+            <h3>Automação inteligente</h3>
+            <p>Espaço ideal para integrar captação, relacionamento e acionamentos estratégicos.</p>
+          </article>
+
+          <article class="feature-card reveal-up">
+            <div class="feature-icon">06</div>
+            <h3>Design orientado à confiança</h3>
+            <p>Elementos visuais que reforçam autoridade, sofisticação e usabilidade.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section showcase-section">
+      <div class="container showcase-grid">
+        <div class="showcase-copy reveal-left">
+          <span class="eyebrow">Showcase do aplicativo</span>
+          <h2>Mostre a interface do app com impacto visual e leitura imediata.</h2>
+          <p>
+            Esta seção simula um showcase premium com mockups animados. Depois, você só substitui pelos prints reais do app.
+          </p>
+        </div>
+
+        <div class="phone-stack reveal-right">
+          <img src="assets/img/app-screen-1.svg" alt="Tela 1 do aplicativo" class="phone phone-1" />
+          <img src="assets/img/app-screen-2.svg" alt="Tela 2 do aplicativo" class="phone phone-2" />
+          <img src="assets/img/app-screen-3.svg" alt="Tela 3 do aplicativo" class="phone phone-3" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="beneficios">
+      <div class="container">
+        <div class="section-head reveal-up">
+          <span class="eyebrow">Benefícios para médicos</span>
+          <h2>Uma plataforma pensada para quem valoriza eficiência e percepção premium.</h2>
+        </div>
+
+        <div class="benefit-grid">
+          <article class="benefit-card reveal-up">
+            <strong>01</strong>
+            <h3>Mais tempo para a prática médica</h3>
+            <p>Menos fricção operacional, mais foco no que realmente importa.</p>
+          </article>
+
+          <article class="benefit-card reveal-up">
+            <strong>02</strong>
+            <h3>Mais valor percebido</h3>
+            <p>Uma experiência digital coerente com um posicionamento de alta qualidade.</p>
+          </article>
+
+          <article class="benefit-card reveal-up">
+            <strong>03</strong>
+            <h3>Mais organização</h3>
+            <p>Fluxos mais claros, melhor leitura de contexto e menor desgaste cognitivo.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head reveal-up">
+          <span class="eyebrow">Diferenciais</span>
+          <h2>Não é apenas funcional. É estrategicamente percebido como superior.</h2>
+        </div>
+
+        <div class="grid-4 cards-space">
+          <article class="glass-card reveal-up"><h3>Visual premium</h3></article>
+          <article class="glass-card reveal-up"><h3>Microinterações refinadas</h3></article>
+          <article class="glass-card reveal-up"><h3>Alta responsividade</h3></article>
+          <article class="glass-card reveal-up"><h3>Base preparada para integrações</h3></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="depoimentos">
+      <div class="container">
+        <div class="section-head reveal-up">
+          <span class="eyebrow">Depoimentos</span>
+          <h2>Substitua estes cards pelos testemunhos reais do cliente.</h2>
+        </div>
+
+        <div class="grid-3 cards-space">
+          <article class="testimonial-card reveal-up">
+            <p>“A experiência transmite exatamente o padrão de excelência que buscamos comunicar.”</p>
+            <span>Dr. Nome Sobrenome</span>
+          </article>
+
+          <article class="testimonial-card reveal-up">
+            <p>“Design elegante, leitura rápida e uma percepção muito superior à de soluções comuns.”</p>
+            <span>Dra. Nome Sobrenome</span>
+          </article>
+
+          <article class="testimonial-card reveal-up">
+            <p>“A plataforma parece premium antes mesmo de começar a usar. Isso muda tudo.”</p>
+            <span>Clínica Exemplo</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="precos">
+      <div class="container">
+        <div class="section-head reveal-up">
+          <span class="eyebrow">Preços</span>
+          <h2>Apresente seus planos de forma objetiva, elegante e comercial.</h2>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="pricing-card reveal-up">
+            <span class="plan-tag">Essencial</span>
+            <h3>Plano inicial</h3>
+            <div class="price">R$ 0<span>/mês</span></div>
+            <ul class="pricing-list">
+              <li>Recursos básicos</li>
+              <li>Onboarding simples</li>
+              <li>Ideal para começar</li>
+            </ul>
+            <a href="#contato" class="btn btn-secondary full">Falar com a equipe</a>
+          </article>
+
+          <article class="pricing-card featured reveal-up">
+            <span class="plan-tag">Mais escolhido</span>
+            <h3>Plano premium</h3>
+            <div class="price">R$ 0<span>/mês</span></div>
+            <ul class="pricing-list">
+              <li>Experiência completa</li>
+              <li>Mais automações</li>
+              <li>Percepção de alto valor</li>
+            </ul>
+            <a href="#contato" class="btn btn-primary full">Solicitar demonstração</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section-head reveal-up">
           <span class="eyebrow">FAQ</span>
           <h2>Dúvidas frequentes</h2>
         </div>
 
-        <div class="container faq-list">
+        <div class="faq-list">
           <details class="faq-item reveal-up">
             <summary>A plataforma já está disponível?</summary>
-            <p>Substitua esta resposta pela informação oficial do produto.</p>
+            <p>Substitua esta resposta pela condição real de lançamento do cliente.</p>
           </details>
-          <details class="faq-item reveal-up delay-1">
-            <summary>Existe demonstração?</summary>
-            <p>Substitua esta resposta pela política comercial da startup.</p>
+
+          <details class="faq-item reveal-up">
+            <summary>Existe versão de demonstração?</summary>
+            <p>Substitua esta resposta pela política comercial real do produto.</p>
           </details>
-          <details class="faq-item reveal-up delay-2">
-            <summary>Posso entrar na lista de espera?</summary>
-            <p>Sim. Use a página de waitlist para capturar leads antes do lançamento oficial.</p>
+
+          <details class="faq-item reveal-up">
+            <summary>É possível entrar na lista de espera?</summary>
+            <p>Sim. A página de waitlist foi criada exatamente para captar esse interesse antes do lançamento oficial.</p>
           </details>
-        </div>
-      </section>
 
-      <section class="section cta-section" id="contato">
-        <div class="container cta-grid">
-          <div class="cta-copy reveal-left">
-            <span class="eyebrow">Pronto para apresentar sua solução com excelência?</span>
-            <h2>Solicite contato ou direcione o público para sua lista de espera.</h2>
-            <p>
-              Esta área pode ser conectada a Formspree, Brevo, Mailchimp ou outra ferramenta de captação.
-            </p>
-          </div>
-
-          <form class="contact-form reveal-right" id="contactForm">
-            <div class="field-group">
-              <label for="nome">Nome</label>
-              <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
-            </div>
-
-            <div class="field-group">
-              <label for="email">E-mail</label>
-              <input type="email" id="email" name="email" placeholder="voce@exemplo.com" required />
-            </div>
-
-            <div class="field-group">
-              <label for="mensagem">Mensagem</label>
-              <textarea id="mensagem" name="mensagem" rows="5" placeholder="Conte brevemente o que você procura"></textarea>
-            </div>
-
-            <button type="submit" class="btn btn-primary full">Enviar</button>
-            <p class="form-note">Conecte este formulário à sua ferramenta preferida.</p>
-            <p class="form-feedback" id="contactFeedback"></p>
-          </form>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div class="container footer-inner">
-        <div>
-          <strong>Healthtech</strong>
-          <p>Tecnologia premium para médicos brasileiros.</p>
-        </div>
-        <div class="footer-links">
-          <a href="#topo">Início</a>
-          <a href="waitlist.html">Waitlist</a>
+          <details class="faq-item reveal-up">
+            <summary>O formulário já envia para e-mail marketing?</summary>
+            <p>Ele está validado e pronto para integração. Basta conectar à ferramenta escolhida pelo cliente.</p>
+          </details>
         </div>
       </div>
-    </footer>
-  </div>
+    </section>
+
+    <section class="section cta-section" id="contato">
+      <div class="container cta-grid">
+        <div class="cta-copy reveal-left">
+          <span class="eyebrow">Solicite uma demonstração</span>
+          <h2>Pronto para apresentar sua solução com um nível premium real?</h2>
+          <p>
+            Este formulário pode ser conectado a Brevo, Mailchimp, Formspree, RD Station ou outra ferramenta de captação.
+          </p>
+        </div>
+
+        <form class="contact-form reveal-right" id="contactForm" novalidate>
+          <div class="field-group">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" placeholder="Seu nome" required />
+          </div>
+
+          <div class="field-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="voce@exemplo.com" required />
+          </div>
+
+          <div class="field-group">
+            <label for="company">Empresa</label>
+            <input type="text" id="company" name="company" placeholder="Nome da clínica ou empresa" />
+          </div>
+
+          <div class="field-group">
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message" rows="5" placeholder="Conte brevemente o que você procura"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary full">Enviar</button>
+          <p class="form-note">Validação pronta. Integração externa pendente apenas da ferramenta escolhida.</p>
+          <p class="form-feedback" id="contactFeedback"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <div>
+        <strong>Healthtech</strong>
+        <p>Tecnologia premium para médicos brasileiros.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#top">Início</a>
+        <a href="waitlist.html">Waitlist</a>
+      </div>
+    </div>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
